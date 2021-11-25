@@ -63,7 +63,9 @@ for (let i = 0; i < Producto.length; i++) {
             <h3>${productos[i].nombre}</h3>
             <h5 style="font-size: 16px">${productos[i].categoria}</h5>
             <h5 style="font-size: 16px">${productos[i].peso}</h5>
-            <button style="margin-top: 15px;">Comprar</button>
+            <button style="margin-top: 15px;">
+                Comprar
+            </button>
         </div>
     `
 }
